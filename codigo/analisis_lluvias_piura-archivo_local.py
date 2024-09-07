@@ -81,7 +81,7 @@ plt.legend( loc = "best")
 plt.table(cellText = listaTabla[1:], rowLabels = listaTabla[0],colLabels = meses, loc = "bottom", rowColours = colores)
 plt.subplots_adjust(left=0.2, bottom=0.2)
 #plt.show()
-plt.savefig("LluviaMaxPorMeses - estación {}.jpg".format(nombreEstacionMeteorologica), dpi=600)
+plt.savefig("LluviaMaxPorMeses - estación {}.jpg".format(nombreEstacionMeteorologica), dpi = 600, bbox_inches = 'tight')
 print("\n")
 
 figInterac = go.Figure()
